@@ -27,5 +27,16 @@ CADENAS String
 //El operador de concatenación (+) se usa para concatenar (agregar) cadenas de texto o también llamados strings.
 margorieespinozamolina@gmail.com
 
-De asignación
+COMPARACION
+//Los operadores de comparación se utilizan para comparar 
+//operandos y devuelven un valor lógico (verdadero o falso) sobre la base de la comparación
+//Operador igual (==), devuelve verdadero si los operandos son iguales.
+// Solo compara los valores de los operandos, ignorando su tipo al comparar.
+BITWISE
+//Una operación bit a bit o bitwise opera sobre números binarios a nivel de sus bits individuales. 
+//Es una acción primitiva rápida, soportada directamente por los procesadores
+ESPECIALES 
+//El operador ternario es la abreviatura de la instrucción if-else. Asigna valor a una variable en base a una condición, la sintaxis de la misma es:
+
+condition ? value1 : value2
 
