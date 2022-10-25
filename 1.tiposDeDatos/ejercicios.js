@@ -11,3 +11,5 @@ BigInt: typeof instance === "bigint"
 Symbol: typeof instance === "symbol"
 //que me permita que tipo de dato 
 //tengo
+averiguar //arrays y obbjetos en javascript
+// averiguar  porque array y objetoc en javascript son lo mismo

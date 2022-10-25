@@ -40,3 +40,4 @@ ESPECIALES
 
 condition ? value1 : value2
 
+console.log(typeorf 'hola')
