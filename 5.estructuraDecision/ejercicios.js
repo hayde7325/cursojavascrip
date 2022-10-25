@@ -1,6 +1,15 @@
-let vestido="rosado"
-if(vestido=="rosado"){
-    console.log("me pongo mi vestido rosado para ir ala fiesta ")
-}else{
-     condole .log("me pongo mi vestido negro y no voy air ala fiesta")
+var edad = 18;
+
+if(edad >= 18) {
+  console.log("Eres  mayor de edad");
+}else {
+  console.log("Todavía eres menor de edad");
+}
+vocal="a" 
+ switch(vocal){
+case 'a': case'e' : case'i' : case 'o': case'u':
+console.log(`la letra${vocal}, es una vocal`)
+break 
+default:
+console.log("no es una vocal")
 }
