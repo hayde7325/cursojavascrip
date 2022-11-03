@@ -14,3 +14,8 @@ while(eval==true){
     }
 }console.log('hola')
 //dowhile
+//hacert un progrma que muesatre el factorial de un numero
+
+5
+//hacer un progrma que me dtermine si un texto es palimdromo
+//hacer un programa que muestre los 6 primeros numeros de la serie de fibonacci
