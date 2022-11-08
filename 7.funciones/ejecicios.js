@@ -1,13 +1,14 @@
-function contarVocales(texto){
-let contarVocales =0
-let vocales=['a','e','i','o','u']
-for(let i= 0;i<texto.length; i++){
-    if(vocales.indexOf(texto[i])>=0)
-    ++contarVocales;
+function contarVocales(palbra){
+const Vocales ='aeiou'
+let cantidadvocales = 0;
+for(const letra of palbra){
+    if(Vocales.includes(letra.toLowerCase())) {
+    cantidadvocales++;
 }
-return contarVocales;
+return cantidadvocales;
 }
-console.log(contarVocales("eucalipto"))
+}
+console.log(contarVocales('eucalipto'))
 //
 function calculadora(operacion,x,y){
     if(operacion=="suma"){
