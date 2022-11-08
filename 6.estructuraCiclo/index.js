@@ -18,4 +18,5 @@ while(eval==true){
 
 5
 //hacer un progrma que me dtermine si un texto es palimdromo
+
 //hacer un programa que muestre los 6 primeros numeros de la serie de fibonacci
