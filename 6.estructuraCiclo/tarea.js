@@ -5,15 +5,10 @@ function factorial(num){
 }
 console.log(factorial(5))
 //2
-function palindrome(str) {
-    var re = /[^A-Za-z0-9]/g;
-    str = str.toLowerCase().replace(re, '');
-    var len = str.length;
-    for (var i = 0; i < len/2; i++) {
-      if (str[i] !== str[len - 1 - i]) {
-          return false;
-      }
-    }
-    return true;
-   }
-   console.log(palindrome)
+function esPalindromo(cadena) {
+let array = cadena.split("");
+let reverse = array.reverse();
+
+return cadena ==reverse.join("")?"si es":"No es"
+}
+console.log(esPlindromo("oso"))
