@@ -3,22 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=  <script>
-        // ejecuta esta función cuando se cargue el documento
-        window.onload = function() {
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANDERAS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        #img{
+            display:none;
+        }
+    </style>
+    <style>
+        #img1{
+            display:none;
+        }
+    </style>
+    <style>
+        #img2{
+            display:none;
+        }
+    </style>
+    <style>
+        #img3{
+            display:none;
+        }
+    </style>
  
-          // crea dinámicamente un par de elementos HTML en una página vacia
-          var heading = document.createElement("h1");
-          var heading_text = document.createTextNode("el texto que desee");
-          heading.appendChild(heading_text);
-          document.body.appendChild(heading);
-       }
-     </script>
-   </head>
-   <body, initial-scale=1.0">
-    <title>Document</title>
+    </style>
 </head>
 <body>
-    
+    <button id="boton" onclick="mostrar();">Perú</button>
+    <div id="img">
+        <button id="boton"onclick="ocultar();">Cerrar</button>
+        <img src="peru.jpg" alt="">
+    </div> 
+    <button id="boton" onclick="mostrar1();">mexico</button>
+    <div id="img1">
+        <button id="boton"onclick="ocultar1();">Cerrar</button>
+        <img src="mexico.png" alt="">
+    </div> 
+    <button id="boton" onclick="mostrar2();">Italia</button>
+    <div id="img2">
+        <button id="boton"onclick="ocultar2();">Cerrar</button>
+        <img src="images (4).jpg" alt="">
+    </div> 
+    <button id="boton" onclick="mostrar3();">argentina</button>
+    <div id="img3">
+        <button id="boton"onclick="ocultar3();">Cerrar</button>
+        <img src="argentina.jpg" alt="">
+    </div> 
+   
 </body>
+<script src="ejercicio.js"></script>
 </html>
